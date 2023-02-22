@@ -20,21 +20,17 @@ body {
     border-radius: 20px;
     background-color: rgb(61, 61, 61);
 }
-.screen {
+.screen input{
     height:125px;
     width: 468px;
     border-radius: 20px;
     background-color: rgb(128, 123, 81);
-    margin-bottom:20px;
-}
-.screen span {
-   position: relative;
-   top: 18px;
-   left: 53px;
-   font-size: 96px;
-   color:rgb(150, 148, 134);
-   font-weight: bold;
-   opacity: 60%;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 92px;
+    color: rgba(150, 148, 134, 0.781);
+    font-weight: bold;
+    opacity: 70%;
 }
 .keypad {
     height:507px;
@@ -48,8 +44,9 @@ body {
 .fourth-row-keys{
     display: flex;
     justify-content: space-around;
-    margin-top: 29px;
-    padding: 0 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .key {
     display:flex;
@@ -62,6 +59,8 @@ body {
     font-weight: bold;
     color:rgb(74, 74, 74) ;
     background-color: rgb(190, 190, 190);
+    cursor: pointer;
+    border: none;
 }
 #operator {
     color: rgb(255, 255, 255);

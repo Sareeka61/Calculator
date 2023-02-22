@@ -12,37 +12,40 @@
 </head>
 <body>
     <div class="container">
+        <form>
             <div class="screen">
-                <span>00000</span>
+                <input type="text" name="display" placeholder="000000">
             </div>
         <div class="keypad">
             <div class="keys">
                 <div class="first-row-keys">
-                    <span class="key">7</span>
-                    <span class="key">8</span>
-                    <span class="key">9</span>
-                    <span id="operator" class="key">÷</span>
+                    <input type="button" class="key" value="7">
+                    <input type="button" class="key" value="8">
+                    <input type="button" class="key" value="9">
+                    <input type="button" class="key" id="operator" value="÷">
                 </div>
                 <div class="second-row-keys">
-                    <span class="key">4</span>
-                    <span class="key">5</span>
-                    <span class="key">6</span>
-                    <span id="operator" class="key">X</span>
+                    <input type="button" class="key" value="4">
+                    <input type="button" class="key" value="5">
+                    <input type="button" class="key" value="6">
+                    <input type="button" class="key" id="operator" value="x">
                 </div>
                 <div class="third-row-keys">
-                    <span class="key">1</span>
-                    <span class="key">2</span>
-                    <span class="key">3</span>
-                    <span id="operator" class="key">-</span>
+                    <input type="button" class="key" value="1">
+                    <input type="button" class="key" value="2">
+                    <input type="button" class="key" value="3">
+                    <input type="button" class="key" id="operator" value="-">
                 </div>
                 <div class="fourth-row-keys">
-                    <span id="clear" class="key">C</span>
-                    <span class="key">0</span>
-                    <span id="equals" class="key">=</span>
-                    <span id="operator" class="key">+</span>
+                    <input type="button" class="key" id="clear" value="C">
+                    <input type="button" class="key" value="0">
+                    <input type="button" class="key" id="equals" value="=">
+                    <input type="button" class="key" id="operator" value="+">
                 </div>
             </div>
         </div>
+    </form>
     </div>
+    <script src=index.js></script>
 </body>
 </html>
