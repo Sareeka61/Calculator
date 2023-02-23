@@ -24,13 +24,13 @@ body {
     height:125px;
     width: 468px;
     border-radius: 20px;
-    background-color: rgb(128, 123, 81);
+    background-color: rgb(185, 180, 120);
     border: none;
     margin-bottom: 20px;
     font-size: 92px;
-    color: rgba(150, 148, 134, 0.781);
+    color: rgba(204, 201, 175, 0.781);
     font-weight: bold;
-    opacity: 70%;
+    opacity: 80%;
 }
 .keypad {
     height:507px;
